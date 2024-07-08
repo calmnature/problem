@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class RequestItemDto {
+public class ItemRequestDto {
     private String title;
-    private String contents;
+    private String content;
     private int price;
     private String username;
 }

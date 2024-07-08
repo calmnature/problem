@@ -7,10 +7,6 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ResponseItemDto {
-    private Long id;
-    private String title;
-    private String contents;
-    private int price;
-    private String username;
+public class JsonDto {
+    private String msg;
 }
